@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Library</title>
+    <script src="/js/jquery-3.4.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<div id="task-form">
+    <form>
+        <h2>Добавление задания</h2>
+        <label for="firstNamePerson">Имя исполнителя:</label>
+        <input type="text" id="firstNamePerson" name="firstName"/>
+        <label for="secondNamePerson">Фамилия исполнителя:</label>
+        <input type="text" id="secondNamePerson" name="secondName"/>
+        <label for="describe">Описание задачи:</label>
+        <input type="text" id="describe" name="describeTask"/>
+        <label for="date">Дата дедлайна</label>
+        <input type="date" id="date" name="deadlineDate"/>
+        <label for="time">Время дедлайна</label>
+        <input type="time" id="time" name="deadlineTime"/>
+        <hr>
+        <button id="save-task">Сохранить</button>
+    </form>
+</div>
+<h1>Список заданий (<span th:text="${tasksCount}">0</span>)</h1>
+<button id="show-add-task-form">Добавить задание</button>
+<br><br>
+<div id="task-list">
+
+</div>
+<p th:text="${someParameter}"></p>
+</body>
+</html>
