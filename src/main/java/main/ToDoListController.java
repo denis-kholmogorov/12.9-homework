@@ -28,12 +28,12 @@ public class ToDoListController
         return tasks;
     }
 
-    @PostMapping("/tasks/")
+    /*@PostMapping("/tasks/")
     public int add(Task task)
     {
         Task newTask = taskRepository.save(task);
         return newTask.getId();
-    }
+    }*/
 
    @GetMapping("/tasks/{id}")
     public ResponseEntity get(@PathVariable int id)

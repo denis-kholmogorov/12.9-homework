@@ -39,14 +39,19 @@
         <label for="timeChange">Время дедлайна</label>
         <input type="time" id="timeChange" name="deadlineTime"/>
         <hr>
-        <button id="changeTask">Изментить</button>
+        <button id="changeTask">Изменить</button>
     </form>
 </div>
 <h1>Список заданий (<span th:text="${tasksCount}">0</span>)</h1>
 <button id="show-add-task-form">Добавить задание</button>
 <br><br>
 <div id="task-list">
-
+    <div class="inner-div" th:each="task : ${tasks}">
+        <a th:href="@{/(id=${task.id})}" class="task-link" th:attr = "data-id=${task.id}" th:text="${task.firstName}"></a>
+        <br>
+        <button class ="button-delete" th:attr = "data-id=${task.id}" type="submit" name="delete task">удалить задание</button>
+        <button class ="show-put-task-form" th:attr = "data-id=${task.id}" type="submit">Изменить задание</button>
+    </div>
 </div>
 <p th:text="${someParameter}"></p>
 </body>

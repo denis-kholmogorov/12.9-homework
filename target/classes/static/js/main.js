@@ -9,13 +9,13 @@ $(function(){
                 .append('<div class="inner-div">' + taskCode + buttonDelete + buttonChange + '</div>');
         };
 
-    //Loading tasks on load page
+   /* //Loading tasks on load page
     $.get('/tasks/', function(response)
     {
         for(i in response) {
             appendTask(response[i]);
         }
-    });
+    });*/
     //Show change task form
     var linkPut;
     $(document).on('click', '.show-put-task-form', function(){

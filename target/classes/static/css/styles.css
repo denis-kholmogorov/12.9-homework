@@ -92,5 +92,9 @@ div .inner-div {
     margin-top:10px;
 }
 
-
+.show-put-task-form{
+   border:2px solid;
+   border-radius:8px;
+   margin-top:10px;
+}
 
