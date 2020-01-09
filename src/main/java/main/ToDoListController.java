@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 @RestController
@@ -44,8 +45,8 @@ public class ToDoListController
         return new ResponseEntity(optionalTask.get(), HttpStatus.OK);
     }
 
-   /* @PutMapping("/tasks/{id}")
-    public Task update(@PathVariable int id, @RequestBody Task newTask){
+    @PutMapping("/tasks/{id}")
+    public Task update(@PathVariable int id, Task newTask){
         return taskRepository.findById(id)
                 .map(task -> {
                     task.setFirstName(newTask.getFirstName());
@@ -59,7 +60,8 @@ public class ToDoListController
                     newTask.setId(id);
                     return taskRepository.save(newTask);
                 });
-    }*/
+
+    }
 
 
     @DeleteMapping("/tasks/{id}")

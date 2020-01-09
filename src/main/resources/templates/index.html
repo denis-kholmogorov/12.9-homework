@@ -25,8 +25,26 @@
         <button id="save-task">Сохранить</button>
     </form>
 </div>
+<div id="put-task-form">
+    <form>
+        <h2>Изменить задания</h2>
+        <label for="firstNamePersonChange">Имя исполнителя:</label>
+        <input type="text" id="firstNamePersonChange" name="firstName"/>
+        <label for="secondNamePersonChange">Фамилия исполнителя:</label>
+        <input type="text" id="secondNamePersonChange" name="secondName"/>
+        <label for="describeChange">Описание задачи:</label>
+        <input type="text" id="describeChange" name="describeTask"/>
+        <label for="dateChange">Дата дедлайна</label>
+        <input type="date" id="dateChange" name="deadlineDate"/>
+        <label for="timeChange">Время дедлайна</label>
+        <input type="time" id="timeChange" name="deadlineTime"/>
+        <hr>
+        <button id="changeTask">Изментить</button>
+    </form>
+</div>
 <h1>Список заданий (<span th:text="${tasksCount}">0</span>)</h1>
 <button id="show-add-task-form">Добавить задание</button>
+<button id ="show-put-task-form">Изменить задание</button>';
 <br><br>
 <div id="task-list">
 

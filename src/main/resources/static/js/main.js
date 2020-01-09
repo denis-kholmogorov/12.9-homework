@@ -5,10 +5,10 @@ $(function(){
                 data.id + '">' + data.firstName + ' ' + data.secondName +'</a><br>';
             var buttonDelete = '<button class ="button-delete" data-id="' + data.id + '" type="submit" name="delete task">удалить задание</button>';
             $('#task-list')
-                .append('<div class="inner-div">' + taskCode + buttonDelete +'</div>');
+                .append('<div class="inner-div">' + taskCode + buttonDelete + '</div>');
         };
 
-    //Loading books on load page
+    //Loading tasks on load page
     $.get('/tasks/', function(response)
     {
         for(i in response) {
@@ -16,20 +16,33 @@ $(function(){
         }
     });
 
-    //Show adding book form
+    //Show change task form
+    $('#show-put-task-form').click(function(){
+        $('#put-task-form').css('display', 'flex');
+    });
+
+    //Closing change task form
+    $('#put-task-form').click(function(event){
+            if(event.target === this) {
+                $(this).css('display', 'none');
+            }
+        });
+
+
+    //Show adding task form
     $('#show-add-task-form').click(function(){
         $('#task-form').css('display', 'flex');
     });
 
-    //Closing adding book form
+    //Closing adding task form
     $('#task-form').click(function(event){
         if(event.target === this) {
             $(this).css('display', 'none');
         }
     });
 
-    //Getting book
-    $(document).on('click', '.task-link', function(){
+    //Getting task
+    $(document).on('click', '#task-link', function(){
         var link = $(this);
         var bookId = link.data('id');
 
@@ -54,7 +67,7 @@ $(function(){
         return false;
     });
 
-    //Adding book
+    //Adding task
     $('#save-task').click(function()
     {
         var data = $('#task-form form').serialize();
@@ -78,6 +91,28 @@ $(function(){
         });
         return false;
     });
+
+    $('#changeTask').click(function()
+    {
+            var data = $('#put-task-form form').serialize();
+            $.ajax({
+                method: "PUT",
+                url: '/tasks/25',
+                data: data,
+                success: function(response)
+                {
+                    $('#put-task-form').css('display', 'none');
+                    var task = {};
+                    var dataArray = $('#put-task-form form').serializeArray();
+                    for(i in dataArray) {
+                        task[dataArray[i]['name']] = dataArray[i]['value'];
+                    }
+                    appendTask(task);
+                    location.reload();
+                }
+            });
+            return false;
+        });
 
     $(document).on('click', '.button-delete', function(){
                 var link = $(this);

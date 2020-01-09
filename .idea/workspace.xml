@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703ab258-34bd-4bc3-b23a-ae0c4f867d80" name="Default Changelist" comment="" />
+    <list default="true" id="703ab258-34bd-4bc3-b23a-ae0c4f867d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/12.9-homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/ToDoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ToDoListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/ToDoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ToDoListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,12 +32,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Vr4EI9I5JR4VUHnCZQtCZloTFf" />
   <component name="ProjectViewState">
@@ -29,7 +54,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Task_9/9.14 homework-maven/pom.xml" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -44,8 +73,9 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="13.0.1" />
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="12.4.2-homework" />
+      <module name="12.9-homework" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -61,6 +91,18 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -80,6 +122,18 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="548" y="188" width="578" height="703" key="#Main" timestamp="1578566106589">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state x="548" y="188" width="578" height="703" key="#Main/0.38.1680.1012@0.38.1680.1012" timestamp="1578566106589" />
+    <state x="435" y="206" width="804" height="667" key="#Project_Structure" timestamp="1578566123980">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state x="435" y="206" width="804" height="667" key="#Project_Structure/0.38.1680.1012@0.38.1680.1012" timestamp="1578566123980" />
+    <state x="298" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578566370508">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state x="298" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.38.1680.1012@0.38.1680.1012" timestamp="1578566370508" />
     <state x="491" y="89" width="376" height="621" key="#com.intellij.ide.util.MemberChooser" timestamp="1578145217958">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
@@ -88,26 +142,47 @@
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="487" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.36.1366.732@0.36.1366.732" timestamp="1577997957373" />
-    <state x="466" y="160" width="426" height="479" key="FileChooserDialogImpl" timestamp="1578087176195">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state x="573" y="209" width="428" height="474" key="FileChooserDialogImpl" timestamp="1578566404665">
+      <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state x="466" y="160" width="426" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1578087176195" />
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1578148476672">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state x="573" y="209" width="428" height="474" key="FileChooserDialogImpl/0.38.1680.1012@0.38.1680.1012" timestamp="1578566404665" />
+    <state width="1634" height="269" key="GridCell.Tab.0.bottom" timestamp="1578578585142">
+      <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1578148476672">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1634" height="269" key="GridCell.Tab.0.bottom/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
+    <state width="1634" height="269" key="GridCell.Tab.0.center" timestamp="1578578585142">
+      <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1578148476672">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1634" height="269" key="GridCell.Tab.0.center/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
+    <state width="1634" height="269" key="GridCell.Tab.0.left" timestamp="1578578585141">
+      <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1578148476672">
-      <screen x="0" y="36" width="1366" height="732" />
+    <state width="1634" height="269" key="GridCell.Tab.0.left/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585141" />
+    <state width="1634" height="269" key="GridCell.Tab.0.right" timestamp="1578578585142">
+      <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
+    <state width="1634" height="269" key="GridCell.Tab.0.right/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
+    <state width="1634" height="332" key="GridCell.Tab.1.bottom" timestamp="1578566405608">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state width="1634" height="332" key="GridCell.Tab.1.bottom/0.38.1680.1012@0.38.1680.1012" timestamp="1578566405608" />
+    <state width="1634" height="332" key="GridCell.Tab.1.center" timestamp="1578566405608">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state width="1634" height="332" key="GridCell.Tab.1.center/0.38.1680.1012@0.38.1680.1012" timestamp="1578566405608" />
+    <state width="1634" height="332" key="GridCell.Tab.1.left" timestamp="1578566405607">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state width="1634" height="332" key="GridCell.Tab.1.left/0.38.1680.1012@0.38.1680.1012" timestamp="1578566405607" />
+    <state width="1634" height="332" key="GridCell.Tab.1.right" timestamp="1578566405608">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state width="1634" height="332" key="GridCell.Tab.1.right/0.38.1680.1012@0.38.1680.1012" timestamp="1578566405608" />
     <state x="216" y="60" width="926" height="679" key="Maven.ArtifactSearchDialog" timestamp="1578087171284">
       <screen x="0" y="36" width="1366" height="732" />
     </state>
@@ -124,5 +199,14 @@
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="336" y="36" width="685" height="727" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.36.1366.732@0.36.1366.732" timestamp="1578087715071" />
+    <state x="645" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578578590481">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state x="645" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.38.1680.1012@0.38.1680.1012" timestamp="1578578590481" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/12_9_homework$Main.ic" NAME="Main Coverage Results" MODIFIED="1578566320808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.*</FILTER>
+    </SUITE>
   </component>
 </project>
