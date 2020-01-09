@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703ab258-34bd-4bc3-b23a-ae0c4f867d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/12.9-homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/ToDoListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/ToDoListController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ToDoListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ToDoListController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
@@ -115,11 +106,23 @@
       <option name="presentableId" value="Default" />
       <updated>1577997766424</updated>
     </task>
+    <task id="LOCAL-00001" summary="add put-method">
+      <created>1578578626473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578578626473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add put-method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add put-method" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="188" width="578" height="703" key="#Main" timestamp="1578566106589">
@@ -142,31 +145,35 @@
       <screen x="0" y="36" width="1366" height="732" />
     </state>
     <state x="487" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.36.1366.732@0.36.1366.732" timestamp="1577997957373" />
+    <state x="485" y="142" width="703" height="795" key="CommitChangelistDialog2" timestamp="1578578625971">
+      <screen x="0" y="38" width="1680" height="1012" />
+    </state>
+    <state x="485" y="142" width="703" height="795" key="CommitChangelistDialog2/0.38.1680.1012@0.38.1680.1012" timestamp="1578578625971" />
     <state x="573" y="209" width="428" height="474" key="FileChooserDialogImpl" timestamp="1578566404665">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state x="466" y="160" width="426" height="479" key="FileChooserDialogImpl/0.36.1366.732@0.36.1366.732" timestamp="1578087176195" />
     <state x="573" y="209" width="428" height="474" key="FileChooserDialogImpl/0.38.1680.1012@0.38.1680.1012" timestamp="1578566404665" />
-    <state width="1634" height="269" key="GridCell.Tab.0.bottom" timestamp="1578578585142">
+    <state width="1634" height="269" key="GridCell.Tab.0.bottom" timestamp="1578581045291">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1634" height="269" key="GridCell.Tab.0.bottom/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
-    <state width="1634" height="269" key="GridCell.Tab.0.center" timestamp="1578578585142">
+    <state width="1634" height="269" key="GridCell.Tab.0.bottom/0.38.1680.1012@0.38.1680.1012" timestamp="1578581045291" />
+    <state width="1634" height="269" key="GridCell.Tab.0.center" timestamp="1578581045290">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.center/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1634" height="269" key="GridCell.Tab.0.center/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
-    <state width="1634" height="269" key="GridCell.Tab.0.left" timestamp="1578578585141">
+    <state width="1634" height="269" key="GridCell.Tab.0.center/0.38.1680.1012@0.38.1680.1012" timestamp="1578581045290" />
+    <state width="1634" height="269" key="GridCell.Tab.0.left" timestamp="1578581045290">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.left/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1634" height="269" key="GridCell.Tab.0.left/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585141" />
-    <state width="1634" height="269" key="GridCell.Tab.0.right" timestamp="1578578585142">
+    <state width="1634" height="269" key="GridCell.Tab.0.left/0.38.1680.1012@0.38.1680.1012" timestamp="1578581045290" />
+    <state width="1634" height="269" key="GridCell.Tab.0.right" timestamp="1578581045291">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>
     <state width="1320" height="174" key="GridCell.Tab.0.right/0.36.1366.732@0.36.1366.732" timestamp="1578148476672" />
-    <state width="1634" height="269" key="GridCell.Tab.0.right/0.38.1680.1012@0.38.1680.1012" timestamp="1578578585142" />
+    <state width="1634" height="269" key="GridCell.Tab.0.right/0.38.1680.1012@0.38.1680.1012" timestamp="1578581045291" />
     <state width="1634" height="332" key="GridCell.Tab.1.bottom" timestamp="1578566405608">
       <screen x="0" y="38" width="1680" height="1012" />
     </state>

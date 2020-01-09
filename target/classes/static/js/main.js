@@ -4,8 +4,9 @@ $(function(){
             var taskCode = '<a href="/tasks/' + data.id + '" class="task-link" data-id="' +
                 data.id + '">' + data.firstName + ' ' + data.secondName +'</a><br>';
             var buttonDelete = '<button class ="button-delete" data-id="' + data.id + '" type="submit" name="delete task">удалить задание</button>';
+            var buttonChange = '<button class ="show-put-task-form" data-id="' + data.id + '" type="submit" >Изменить задание</button>';
             $('#task-list')
-                .append('<div class="inner-div">' + taskCode + buttonDelete + '</div>');
+                .append('<div class="inner-div">' + taskCode + buttonDelete + buttonChange + '</div>');
         };
 
     //Loading tasks on load page
@@ -15,10 +16,12 @@ $(function(){
             appendTask(response[i]);
         }
     });
-
     //Show change task form
-    $('#show-put-task-form').click(function(){
-        $('#put-task-form').css('display', 'flex');
+    var linkPut;
+    $(document).on('click', '.show-put-task-form', function(){
+         var link = $(this);
+         linkPut = link.data('id');
+         $('#put-task-form').css('display', 'flex');
     });
 
     //Closing change task form
@@ -42,14 +45,13 @@ $(function(){
     });
 
     //Getting task
-    $(document).on('click', '#task-link', function(){
+    $(document).on('click', '.task-link', function(){
         var link = $(this);
-        var bookId = link.data('id');
-
+        var taskId = link.data('id');
         $.ajax({
             method: "GET",
             cache:false,
-            url: '/tasks/' + bookId,
+            url: '/tasks/' + taskId,
             success: function(response)
             {
                 var code = '<p> Описание задачи: ' + response.describeTask + '</p>' +
@@ -92,12 +94,15 @@ $(function(){
         return false;
     });
 
+    //change Task
     $('#changeTask').click(function()
     {
+        var link = $(this);
+
             var data = $('#put-task-form form').serialize();
             $.ajax({
                 method: "PUT",
-                url: '/tasks/25',
+                url: '/tasks/' + linkPut,
                 data: data,
                 success: function(response)
                 {
@@ -111,6 +116,7 @@ $(function(){
                     location.reload();
                 }
             });
+            linkPut = null;
             return false;
         });
 
