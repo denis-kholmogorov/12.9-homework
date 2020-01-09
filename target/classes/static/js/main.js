@@ -17,6 +17,7 @@ $(function(){
         }
     });*/
     //Show change task form
+
     var linkPut;
     $(document).on('click', '.show-put-task-form', function(){
          var link = $(this);
