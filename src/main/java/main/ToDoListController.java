@@ -46,21 +46,16 @@ public class ToDoListController
     }
 
     @PutMapping("/tasks/{id}")
-    public Task update(@PathVariable int id, Task newTask){
-        return taskRepository.findById(id)
-                .map(task -> {
-                    task.setFirstName(newTask.getFirstName());
-                    task.setSecondName(newTask.getSecondName());
-                    task.setDescribeTask(newTask.getDescribeTask());
-                    task.setDeadlineDate(newTask.getDeadlineDate());
-                    task.setDeadlineTime(newTask.getDeadlineTime());
-                    return taskRepository.save(task);
-                })
-                .orElseGet(() -> {
-                    newTask.setId(id);
-                    return taskRepository.save(newTask);
-                });
-
+    public ResponseEntity update(@PathVariable int id, Task newTask){
+        Task task;
+        Optional<Task> optionalTask = taskRepository.findById(id);
+        if(!optionalTask.isPresent()){
+            task = taskRepository.save(newTask);
+            return ResponseEntity.status(HttpStatus.CREATED).body(task.getId());
+        } else {
+            task = taskRepository.save(newTask);
+            return ResponseEntity.status(HttpStatus.OK).body(task.getId());
+        }
     }
 
 
